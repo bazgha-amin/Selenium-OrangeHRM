@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite1" >
+    <test name="Functional" preserve-order="true">
+        <classes>
+            <class name="LoginTest"/>
+            <class name="AddEmployeeTest"/>
+            <class name="SearchEmployeeTest"/>
+            <class name="AttendenceTest"/>
+        </classes >
+    </test>
+
+<!--    <test name="Functional" preserve-order="true">-->
+<!--        <parameter name="browserName" value="firefox"></parameter>-->
+<!--        <classes >-->
+<!--            <class name="LoginTest"/>-->
+<!--            <class name="AddEmployeeTest"/>-->
+<!--            <class name="SearchEmployeeTest"/>-->
+<!--            <class name="AttendenceTest"/>-->
+<!--        </classes >-->
+<!--    </test>-->
+</suite>
